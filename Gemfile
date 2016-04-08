@@ -35,7 +35,7 @@ end
 gem 'rails_12factor', group: :production
 
 group :development, :test do
-	gem 'rspec-rails', '~> 3.0'
+	gem 'rspec-rails', '~> 3.4.2'
 end
 
 # Use ActiveModel has_secure_password

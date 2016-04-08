@@ -78,7 +78,7 @@ GEM
     rake (11.1.2)
     rdoc (4.2.2)
       json (~> 1.4)
-    rspec-core (3.4.1)
+    rspec-core (3.4.4)
       rspec-support (~> 3.4.0)
     rspec-expectations (3.4.0)
       diff-lcs (>= 1.2.0, < 2.0)
@@ -86,7 +86,7 @@ GEM
     rspec-mocks (3.4.1)
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.4.0)
-    rspec-rails (3.4.0)
+    rspec-rails (3.4.2)
       actionpack (>= 3.0, < 4.3)
       activesupport (>= 3.0, < 4.3)
       railties (>= 3.0, < 4.3)
@@ -135,7 +135,7 @@ DEPENDENCIES
   pg
   rails (= 4.0.1)
   rails_12factor
-  rspec-rails (~> 3.0)
+  rspec-rails (~> 3.4.2)
   sass-rails (~> 4.0.0)
   sdoc
   turbolinks
