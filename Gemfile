@@ -47,6 +47,9 @@ end
 # Use simple_form for forms
 gem 'simple_form'
 
+# Use devise
+gem 'devise'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
