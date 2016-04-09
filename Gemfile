@@ -44,6 +44,9 @@ group :development, :test do
 	gem 'rspec-rails', '~> 3.4.2'
 end
 
+# Use simple_form for forms
+gem 'simple_form'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
