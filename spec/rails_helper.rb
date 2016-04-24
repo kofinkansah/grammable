@@ -31,6 +31,9 @@ end
 ActiveRecord::Migration.check_pending!
 
 RSpec.configure do |config|
+  # The following line gives access to the Devise sign-in method
+  config.include Devise::TestHelpers, type: :controller
+  
   # Remove this line if you're not using ActiveRecord or ActiveRecord fixtures
   config.fixture_path = "#{::Rails.root}/spec/fixtures"
 
@@ -58,4 +61,5 @@ RSpec.configure do |config|
   config.filter_rails_from_backtrace!
   # arbitrary gems may also be filtered via:
   # config.filter_gems_from_backtrace("gem name")
+
 end
